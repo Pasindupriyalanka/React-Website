@@ -1,13 +1,18 @@
 import React from 'react';
 
 function About() {
-    return (
-        <div className="About">
-            <h2>About Us</h2>
-            <p>This is a simple React application to demonstrate how to build a single-page</p>
-            <p>We aim to provide users with a seamless and interactive experience by levera</p>
-        </div>
-    );
+  return (
+    <section className="about">
+      <h2>About Us</h2>
+      <p>
+        Star Salon is dedicated to enhancing your natural beauty through expert
+        care, premium products, and personalized services.
+      </p>
+      <p>
+        Our mission is to deliver confidence, comfort, and style in every visit.
+      </p>
+    </section>
+  );
 }
 
 export default About;
